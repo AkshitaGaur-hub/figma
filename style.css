@@ -1,3 +1,6 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,7 +8,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Figtree', sans-serif;
     line-height: 1.6;
     color: black;
     background-color: #fff;
@@ -21,7 +24,7 @@ body {
 /* Header */
 header {
     background-color: #fff;
-    padding: 20px 0;
+    padding: 24px 0;
 }
 
 .header-container {
@@ -67,10 +70,10 @@ header {
     font-weight: bold;
     border: 2px solid #ff3366;
     /*glow*/
-    box-shadow:0 0 3px #ff3366,
-    0 0 6px #ff3366,
-    0 0 9px #ff3366,
-    0 0 12px #ff3366;
+    box-shadow:0 0 2px #ff3366,
+     0 0 4px #ff3366,
+     0 0 6px #ff3366,
+     0 0 8px #ff3366;
 }
 .what-btn{
     background-color: #fdd3d3;
@@ -128,9 +131,17 @@ header {
     gap: 30px;
 }
 
+.figtree-para {
+  font-family: "Figtree", sans-serif;
+  font-size: 1rem;
+}
+
+.figtree-hero-content{
+    font-family: "Figtree", sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
 .hero-content h1 {
-    font-size: 2.5em;
-    font-weight: 700;
     line-height: 1.2;
     margin-bottom: 20px;
 }
@@ -167,10 +178,10 @@ header {
     color: white;
     border: 2px solid #ff3366;
      /*glow*/
-     box-shadow:0 0 3px #ff3366,
+     box-shadow:0 0 2px #ff3366,
+     0 0 4px #ff3366,
      0 0 6px #ff3366,
-     0 0 9px #ff3366,
-     0 0 12px #ff3366;
+     0 0 8px #ff3366;
 }
 
 .secondary-btn {
@@ -215,21 +226,31 @@ header {
 }
 
 .service-card {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
     background-color: white;
     padding: 30px;
+    width: 18.6rem;
+    height: 28.1rem;
     border-radius: 10px;
     border: 1px solid #ddd;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .service-card h3 {
-    margin: 10px 0;
+    margin: 2.5rem 1rem;
     font-size: 1.2em;
     font-weight: 600;
 }
 
 .service-card p {
     font-size: 0.9em;
+}
+
+.icon{
+   width: 12.5rem;
+   height: 9.3rem;
 }
 
 @media (min-width: 768px) {
